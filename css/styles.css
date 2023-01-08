@@ -1,3 +1,14 @@
+:root {
+  --second-title-colour: #2E2F42;
+  --second-title-font-weight: 700;
+  --subtitle-colour: #2E2F42;
+  --subtitle-font-weight: 500;
+  --main-text-colour: #434455;
+  --main-text-font-weight: 400;
+  --nav-colour: #2E2F42;
+  --contact-colour: #434455;
+  --main-colour-button: #4D5AE5;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -17,36 +28,6 @@ body {
 }
 .link {
     text-decoration: none;
-}
-.title-h2 {
-font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-}
-.subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.contact {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 .accent {
     color: #4D5AE5;
@@ -89,7 +70,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--nav-colour)
 }
 .header-link:hover, .header-link:focus {
     color: #4D5AE5;
@@ -97,11 +78,21 @@ color: #2E2F42;
 .header-address {
 }
 .header-mail {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--contact-colour)
 }
 .header-mail:hover, .header-mail:focus {
     color: #4D5AE5;
 }
 .header-tel {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--contact-colour)
 }
 .header-tel:hover, .header-tel:focus {
     color: #4D5AE5;
@@ -147,14 +138,31 @@ color: #FFFFFF;
 .about-item {}
 
 .about-subtitle {
+        font-weight: var(--subtitle-font-weight);
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--subtitle-colour)
 }
 .about-text {
+        font-weight: var(--main-text-font-weight)
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-colour);
 }
 
 /*------------SERVICES-----------*/
 .services {}
 
 .services-title {
+        font-weight: var(--second-title-font-weight)
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--second-title-colour);
 }
 
 .services-list {}
@@ -166,6 +174,13 @@ color: #FFFFFF;
     background-color: #F4F4FD;
 }
 .team-title {
+        font-weight: var(--second-title-font-weight);
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--second-title-colour);
 }
 
 .team-list {}
@@ -173,10 +188,20 @@ color: #FFFFFF;
 .team-item {}
 
 .team-subtitle {
+        font-weight: var(--subtitle-font-weight);
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--subtitle-colour)
         text-align: center;
 }
 
 .team-text {
+        font-weight: var(--main-text-font-weight)
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-colour);
         text-align: center;
 }
 
@@ -215,7 +240,7 @@ color: #FFFFFF;
             align-items: center;
             text-align: center;
             letter-spacing: 0.04em;
-            color: #4D5AE5;
+            color: var(--main-colour-button)
             cursor: pointer;
 }
 .buttons-button:hover, .buttons-button:focus {
@@ -231,6 +256,16 @@ color: #FFFFFF;
     text-decoration: none;
 }
 .examples-item-subtitle {
+        font-weight: var(--subtitle-font-weight);
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--subtitle-colour)
 }
 .examples-item-text {
+        font-weight: var(--main-text-font-weight);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-colour);
 }
